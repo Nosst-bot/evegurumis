@@ -27,7 +27,7 @@
 <div class="hidden xl:block xl:h-212.5"></div>
 
 <section
-	class="bg-white pt-8 transition-colors duration-300 sm:py-16 lg:py-20 dark:bg-dark-primary"
+	class="bg-white pt-8 transition-colors duration-300 sm:pt-16 lg:pt-20 dark:bg-dark-primary"
 >
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="mb-12 text-center">
