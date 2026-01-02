@@ -2,10 +2,8 @@
 	import { scale } from 'svelte/transition';
 </script>
 
-<hr class="opacity-20 w-72 mx-auto bg-amber-100"/>
-<section
-	class="dark:bg-dark-primary px-4 transition-colors duration-300 sm:py-20 lg:py-24"
->
+<hr class="mx-auto w-72 bg-amber-100 opacity-20" />
+<section class="px-4 transition-colors duration-300 sm:py-20 lg:py-24 dark:bg-dark-primary">
 	<div class="mx-auto max-w-4xl">
 		<div
 			class="rounded-2xl bg-white/80 px-6 py-12 text-center backdrop-blur-sm sm:px-8 lg:px-12 dark:bg-black/40"

@@ -5,15 +5,15 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-	--color-main: #FFFDEC;
+	--color-main: #fffdec;
 	--color-secondary: #fffbfb;
-	--color-tertiary: #86A788;
-	--color-textMain: #3D3635;
+	--color-tertiary: #86a788;
+	--color-textMain: #3d3635;
 
-	--color-dark-primary: #1A1616;
+	--color-dark-primary: #1a1616;
 	--color-dark-secondary: #141212;
-	--color-dark-tertiary: #535C91;
-	--color-dark-textMain: #F3EFE0;
+	--color-dark-tertiary: #535c91;
+	--color-dark-textMain: #f3efe0;
 }
 
 @layer base {
@@ -21,4 +21,3 @@
 		@apply transition-colors duration-300 ease-in-out;
 	}
 }
-

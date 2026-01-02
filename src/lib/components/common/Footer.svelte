@@ -10,9 +10,7 @@
 		<div class="mb-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
 			<!-- Brand Column -->
 			<div class="col-span-1 sm:col-span-2 lg:col-span-1">
-				<h3
-					class="mb-4 text-gray-800 bg-clip-text text-2xl font-bold dark:text-gray-100"
-				>
+				<h3 class="mb-4 bg-clip-text text-2xl font-bold text-gray-800 dark:text-gray-100">
 					Evegurumis
 				</h3>
 				<p class="mb-6 text-sm text-gray-600 dark:text-gray-400">
@@ -24,7 +22,7 @@
 						href="https://www.instagram.com/eve.gurumis1"
 						target="_blank"
 						aria-label="Instagram"
-						class="flex h-10 w-10 transform items-center justify-center rounded-full bg-gray-100 text-gray-600 transition-all duration-300 hover:scale-110 hover:bg-rose-medium hover:text-white dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-rose-medium"
+						class="hover:bg-rose-medium dark:hover:bg-rose-medium flex h-10 w-10 transform items-center justify-center rounded-full bg-gray-100 text-gray-600 transition-all duration-300 hover:scale-110 hover:text-white dark:bg-gray-800 dark:text-gray-400"
 					>
 						<svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
 							<path
@@ -35,7 +33,7 @@
 					<a
 						href="/"
 						aria-label="Facebook"
-						class="flex h-10 w-10 transform items-center justify-center rounded-full bg-gray-100 text-gray-600 transition-all duration-300 hover:scale-110 hover:bg-rose-medium hover:text-white dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-rose-medium"
+						class="hover:bg-rose-medium dark:hover:bg-rose-medium flex h-10 w-10 transform items-center justify-center rounded-full bg-gray-100 text-gray-600 transition-all duration-300 hover:scale-110 hover:text-white dark:bg-gray-800 dark:text-gray-400"
 					>
 						<svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
 							<path
@@ -44,9 +42,9 @@
 						</svg>
 					</a>
 					<a
-					href="/"
+						href="/"
 						aria-label="TikTok"
-						class="flex h-10 w-10 transform items-center justify-center rounded-full bg-gray-100 text-gray-600 transition-all duration-300 hover:scale-110 hover:bg-rose-medium hover:text-white dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-rose-medium"
+						class="hover:bg-rose-medium dark:hover:bg-rose-medium flex h-10 w-10 transform items-center justify-center rounded-full bg-gray-100 text-gray-600 transition-all duration-300 hover:scale-110 hover:text-white dark:bg-gray-800 dark:text-gray-400"
 					>
 						<svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
 							<path
@@ -64,7 +62,7 @@
 					<li>
 						<a
 							href="/"
-							class="text-sm text-gray-600 transition-colors duration-300 hover:text-rose-medium dark:text-gray-400 dark:hover:text-pink-400"
+							class="hover:text-rose-medium text-sm text-gray-600 transition-colors duration-300 dark:text-gray-400 dark:hover:text-pink-400"
 						>
 							Inicio
 						</a>
@@ -72,7 +70,7 @@
 					<li>
 						<a
 							href="/amigurumis"
-							class="text-sm text-gray-600 transition-colors duration-300 hover:text-rose-medium dark:text-gray-400 dark:hover:text-pink-400"
+							class="hover:text-rose-medium text-sm text-gray-600 transition-colors duration-300 dark:text-gray-400 dark:hover:text-pink-400"
 						>
 							Amigurumis
 						</a>
@@ -80,7 +78,7 @@
 					<li>
 						<a
 							href="/amigurumis"
-							class="text-sm text-gray-600 transition-colors duration-300 hover:text-rose-medium dark:text-gray-400 dark:hover:text-pink-400"
+							class="hover:text-rose-medium text-sm text-gray-600 transition-colors duration-300 dark:text-gray-400 dark:hover:text-pink-400"
 						>
 							Haz tu Encargo
 						</a>
@@ -88,7 +86,7 @@
 					<li>
 						<a
 							href="/about"
-							class="text-sm text-gray-600 transition-colors duration-300 hover:text-rose-medium dark:text-gray-400 dark:hover:text-pink-400"
+							class="hover:text-rose-medium text-sm text-gray-600 transition-colors duration-300 dark:text-gray-400 dark:hover:text-pink-400"
 						>
 							Acerca de Nosotros
 						</a>

@@ -26,7 +26,9 @@
 <nav
 	class="fixed top-0 right-0 left-0 z-50 mx-auto flex h-20 items-center justify-between bg-main px-4 text-textMain shadow-md transition-colors duration-300 dark:bg-dark-primary dark:text-white"
 >
-	<div class="md:max-w-3xl lg:max-w-5xl xl:max-w-7xl justify-between mx-auto flex w-full items-center">
+	<div
+		class="mx-auto flex w-full items-center justify-between md:max-w-3xl lg:max-w-5xl xl:max-w-7xl"
+	>
 		<!-- Logo -->
 		<a href="/" class="shrink-0 text-3xl">
 			<img src="/straw_hat.png" class="h-12 w-12 object-contain" alt="Evegurumis" />
@@ -124,7 +126,7 @@
 		{#if visibleNavbarMenu}
 			<div
 				transition:fade={{ duration: 200 }}
-				class="bg-main absolute top-20 right-0 left-0 flex flex-col items-center space-y-4 border-b border-gray-300 py-6 md:hidden dark:border-gray-800 dark:bg-dark-primary"
+				class="absolute top-20 right-0 left-0 flex flex-col items-center space-y-4 border-b border-gray-300 bg-main py-6 md:hidden dark:border-gray-800 dark:bg-dark-primary"
 			>
 				<a
 					href="/"

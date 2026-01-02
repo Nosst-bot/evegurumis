@@ -34,7 +34,7 @@
 			</h1>
 			<a
 				href="/amigurumis"
-				class="bg-white shadow text-gray-900 dark:bg-neutral-950 inline-block rounded-lg px-6 py-3 font-semibold dark:text-gray-100 transition-all duration-300 hover:scale-105"
+				class="inline-block rounded-lg bg-white px-6 py-3 font-semibold text-gray-900 shadow transition-all duration-300 hover:scale-105 dark:bg-neutral-950 dark:text-gray-100"
 			>
 				Volver al catálogo
 			</a>
@@ -60,7 +60,7 @@
 							class="h-auto w-full object-cover"
 						/>
 						<div
-							class="bg-white absolute top-4 right-4 rounded-full px-4 py-2 font-semibold text-gray-900 shadow-lg dark:text-gray-900"
+							class="absolute top-4 right-4 rounded-full bg-white px-4 py-2 font-semibold text-gray-900 shadow-lg dark:text-gray-900"
 						>
 							${amigurumi.price.toLocaleString('es-CO')}
 						</div>
@@ -87,12 +87,12 @@
 						{amigurumi.description}
 					</p>
 
-						<div class="bg-color-main dark:bg-color-dark-secondary mb-8 rounded-lg">
-                            <p class="dark:text-gray-100 italic text-sm">Categoria: {amigurumi.category}</p>
-							<p class="text-color-tertiary dark:text-gray-100 text-sm font-semibold italic">
-								Hecho 100% a mano
-							</p>
-						</div>
+					<div class="bg-color-main dark:bg-color-dark-secondary mb-8 rounded-lg">
+						<p class="text-sm italic dark:text-gray-100">Categoria: {amigurumi.category}</p>
+						<p class="text-color-tertiary text-sm font-semibold italic dark:text-gray-100">
+							Hecho 100% a mano
+						</p>
+					</div>
 
 					<!-- Botón Haz tu encargo -->
 					<div class="flex flex-col gap-4 sm:flex-row">
@@ -100,7 +100,7 @@
 							href="https://instagram.com/eve.gurumis1"
 							target="_blank"
 							rel="noopener noreferrer"
-							class="text-gray-900 bg-white dark:bg-neutral-950 text-sm dark:text-gray-100 inline-flex items-center justify-center gap-6 rounded-2xl px-8 py-4 font-bold shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+							class="inline-flex items-center justify-center gap-6 rounded-2xl bg-white px-8 py-4 text-sm font-bold text-gray-900 shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl dark:bg-neutral-950 dark:text-gray-100"
 						>
 							<svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
 								<path
